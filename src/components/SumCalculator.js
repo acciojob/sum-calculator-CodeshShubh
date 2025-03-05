@@ -26,13 +26,13 @@ const SumCalculator = () => {
 
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h2>Sum Calculator</h2>
+      <h1>Sum Calculator</h1>
       <input
         type="number"
         onChange={handleInputChange}
         placeholder="Enter a number"
       />
-      <h2>Total Sum: {sum}</h2>
+      <p>Total Sum: {sum}</p>
     </div>
   );
 };
