@@ -32,7 +32,7 @@ const SumCalculator = () => {
         onChange={handleInputChange}
         placeholder="Enter a number"
       />
-      <p>Total Sum: {sum}</p>
+      <p>Sum: {sum}</p>
     </div>
   );
 };
